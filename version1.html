@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF8">
+        <link rel="stylesheet" href="http://joelotter.github.io/kajero/dist/main.css">
+    </head>
+    <body>
+        <script type="text/markdown" id="kajero-md">
+            ---
+            title: "Digital account"
+            author: "Amir H. Elmtalab"
+            created: "Sat Apr 03 2021 20:43:11 GMT+0430 (Iran Daylight Time)"
+            original:
+                title: "Kajero"
+                url: "file:///C:/Users/elmtalab/Desktop/MF.html"
+            show_footer: false
+            ---
+
+
+            # حساب دیجیتال
+
+
+            حساب دیجیتال یک ابزار است که با آن می توانید تمام فرآیندهای مالی را با امنیت بالا و بدون محدودیت انجام دهید. حساب دیجیتال به شما قابلیت پرداخت، واریز، تسویه و مدیریت هزینه کرد را به صورت آنی می دهد. مهمترین مزیت حساب دیجیتال که آن را بقیه ابزارهای مالی متمایز می کند تراکنش های آنی است. کسب وکارها میتوانند با استفاده  از امکان حساب دیجیتال پاسارگاد، عملیاتهای مالی خود را از طریق این حساب انجام دهند.
+
+            با استفاده از حساب دیجیتال می توانید حساب دیجیتال تعریف کنید و با استفاده از API به سادگی به یک کابر پادی دیگر یا سایر حساب بانکی پول منتقل کنید. شما می توانید قابلیت های مالی سرویس خود را توسط پلتفرم حساب دیجیتال پاد برون سپاری (outsource) کنید. ساخت سرویس حساب دیجیتال علاوه بر پیچیدگی ها و هزینه های بسیاری که دارد در برخی موارد امکاناتی مانند تسویه بانکی را در اختیار شما قرار می دهد که در حال حاضر در دسترس قرار ندارد.
+
+            ابزارهای اصلی حساب دیجیتال شامل:
+
+            1. [حساب دیجیتال و حساب های صنفی](podium.ir)
+            2. [فاکتور](dfg.com)
+            3. [سرویس شارژ حساب دیجیتال و تسویه](dfbd.com)
+            4. [سرویس های گزارش گیری](dsmnvf.com)
+
+            این 4 ابزار تقریبا تمامی کاربردهایی که کسب و کارها نیاز دارند را پوشش می دهد به همین علت تمرکز ما روی این 4 کاربرد خواهد بود. می توانید برای اطلاعات بیشتر به بخش  [پیشرفته حساب دیجیتال](advanced.doc.com) مراجعه کنید.
+
+
+            تامین امنیت ولت های نرم افزاری یکی از دغدغه های همیشگی کسب و کار ها بوده است و حساب دیجیتال پاد به شما این اجازه را می دهد بدون دغدغه و به سرعت حساب های دیجیتال را در اپلیکیشن خود ایجاد کنید.  
+            پاد برای اینکه طرز استفاده از حساب دیجیتال را نشان دهد یک پنل درست کرده که می توانید تمامی فرآیند های مالی را از طریق آن انجام دهید
+
+            حساب دیجیتال برای آن دسته از کسب و کارهایی است که می خواهند فرآیند های مالی کسب و کارشان را برون سپاری کنند.
+
+
+            تمامی فرآیندهای حساب دیجیتال از دو طریق وب سرویس API و پنل کسب و کاری قابل انجام است. در بسیاری موارد [وب سرویس API](api.docs.com) به شما قابلیت های بیشتری نسبت به پنل کسب و کاری می دهد.
+
+
+
+            # مدیریت حساب دیجیتال ها
+
+            حساب دیجیتال از مجموعه ای از حساب دیجیتال ها ساخته شده است. حساب دیجیتال اصلی حساب دیجیتال (PODLAND_WALLET) حساب دیجیتالی است که مستقیم با حساب های بانکی شما در ارتباط است. با استفاده از این حساب دیجیتال می توانید حساب دیجیتال خود را شارژ کنید و پول های حساب دیجیتال های صنفی را در آن جا تجمیع کنید. حساب دیجیتال های صنفی به عنوان زیر مجموعه های حساب دیجیتال حساب دیجیتال وجود دارند و می توان برحسب نیاز کسب و کار از قابلیت های حساب دیجیتال اصناف استفاده کرد.
+
+            هرگونه پرداخت در پلتفرم پاد، از طریق فاکتور صورت میگیرد و در پلتفرم کسبوکار، فاکتورهایی که پرداخت میشوند به صورت ساالنه شماره سریال دریافت مینمایند، بنابرین کسب وکار میتواند برای امور مالی خود به آن شماره سریال استناد نماید. پول واریزی هر فاکتور به حساب دیجیتال واریز می گردد. به دو صورت متداول می توان فاکتورها را پرداخت کرد. اولی [پرداخت](paymentwithdigitalaccount.pod.ir) با استفاده از حساب دیجیتال و دومی پرداخت از [طریق درگاه بانکی](paymentwithbank.pod.ir) است.
+
+
+            ## مشاهده موجودی و اطلاعات حساب
+
+            در این قسمت موجودی را از حساب دیجیتال می گیریم و آن را در وب سایت خود نمایش می دهیم.
+
+            ```javascript; runnable
+            // New code block
+            ```
+
+
+            یک پارامتر مهم که در این API وجود دارد پارامتر wallet است که با استفاده از آن می توانید اطلاعات حساب اصلی یا حساب های صنفی را دریافت کنید.
+            البته دقت کنید که حساب های صنفی متعلق به کسب و کار است و برای مشاهده موجودی حساب صنفی ابتدا باید کسب و کار خود را [ثبت](registerlink.pod.skjbfd)  کنید
+            و بعد از آن اقدام به گرفتن موجودی حساب صنفی کنید
+
+
+            ```javascript; runnable
+            return "hey boss do you like it"
+            ```
+
+            ```javascript; runnable
+            return 1 + 2;
+            ```
+
+            Code blocks can be set to run automatically, when the notebook is loaded.
+
+            ```javascript; auto
+            return "Like this one.";
+            ```
+
+            They can also be set to 'hidden' - only the result will be visible, the code itself will be hidden (though is still viewable and editable in the editor).
+
+            ```javascript; hidden
+            return "This is a hidden code block."
+            ```
+
+            It's possible to pass data between different code blocks by using **this**. For example, in the following blocks, the first defines a variable and the second does something with it.
+
+            ```javascript; auto
+            this.number = 100;
+            return this.number;
+            ```
+
+            ```javascript; auto
+            return this.number + 100;
+            ```
+
+            Want to run something asynchronous? No problem - return a Promise and it'll be resolved.
+
+            ```javascript; runnable
+            return new Promise(function (resolve) {
+                setTimeout(function() {
+                    resolve("This took three seconds.");
+                }, 3000);
+            });
+            ```
+
+            Kajero includes a built-in data visualiser, similar to Chrome's object inspector. This means your code blocks can return whatever data you need, not just primitives.
+
+            For example, here's an array:
+
+            ```javascript; auto
+            var toSplit = "This is a string. We're going to split it into an array.";
+            return toSplit.split(' ');
+            ```
+
+            And an object:
+
+            ```javascript; auto
+            var person = {
+                name: 'Joel',
+                age: 22,
+                projects: {
+                    termloop: 'https://github.com/JoelOtter/termloop',
+                    kajero: 'https://github.com/JoelOtter/kajero'
+                }
+            };
+
+            return person;
+            ```
+
+            ## Working with data sources
+
+            Kajero allows users to define JSON data sources in the editor. These are fetched when the notebook is first loaded, and made available in code blocks via the **data** object.
+
+            ```javascript; auto
+            return data;
+            ```
+
+            In this notebook, the data source **joelotter** retrieves my repository data via the GitHub API. We can write code blocks to work with this data.
+
+            ```javascript; runnable
+            return data.joelotter.map(
+                function (repo) {
+                    return repo.name;
+                }
+            );
+            ```
+
+            ### Reshaper
+
+            Kajero also includes [Reshaper](http://www.joelotter.com/reshaper), a library which can automatically reshape data to match a provided schema.
+
+            You can read more about Reshaper by following the link above. Here are a couple of quick examples, using the GitHub data.
+
+            ```javascript; runnable
+            var schema = ['String'];
+            return reshaper(data.joelotter, schema);
+            ```
+
+            Reshaper has correctly produced an array of strings, which is what we asked for. However, we didn't tell it exactly what data we're interested in, so it's used the first string it could find.
+
+            We can give Reshaper a **hint** as to which part of the data we care about. Let's get an array of the repo names.
+
+            ```javascript; runnable
+            var schema = ['String'];
+            return reshaper(data.joelotter, schema, 'name');
+            ```
+
+            We can provide a more complex schema for a more useful resulting data structure. Let's get the name and number of stargazers for each repo.
+
+            ```javascript; runnable
+            // Reshaper can use object keys as hints
+            var schema = [{
+                name: 'String',
+                stargazers_count: 'Number'
+            }];
+
+            return reshaper(data.joelotter, schema);
+            ```
+
+            Check the [Reshaper documentation](http://www.joelotter.com/reshaper) for more examples.
+
+            ## Graphs
+
+            When working with data sources, a very common task would be to use the data to produce graphs. Kajero provides a few options for this.
+
+            ### D3
+
+            [D3](http://d3js.org) is the web's favourite library for creating interactive graphics. It's available for use in code blocks.
+
+            Every code block has a DOM node called **graphElement**. Users can draw to this with D3.
+
+            ```javascript; runnable
+            // Remove any old SVGs for re-running
+            d3.select(graphElement).selectAll('*').remove();
+
+            var sampleSVG = d3.select(graphElement)
+                .append("svg")
+                .attr("width", 100)
+                .attr("height", 100);
+
+            sampleSVG.append("circle")
+                .style("stroke", "gray")
+                .style("fill", "white")
+                .attr("r", 40)
+                .attr("cx", 50)
+                .attr("cy", 50)
+                .on("mouseover", function(){d3.select(this).style("fill", "aliceblue");})
+                .on("mouseout", function(){d3.select(this).style("fill", "white");})
+                .on("mousedown", animateFirstStep);
+
+            function animateFirstStep(){
+                d3.select(this)
+                  .transition()
+                    .delay(0)
+                    .duration(1000)
+                    .attr("r", 10)
+                    .each("end", animateSecondStep);
+            };
+
+            function animateSecondStep(){
+                d3.select(this)
+                  .transition()
+                    .duration(1000)
+                    .attr("r", 40);
+            };
+
+            return "Try clicking the circle!";
+            ```
+
+            ### NVD3
+
+            D3 is incredibly powerful, but creating complex drawings can be daunting. [NVD3](http://nvd3.org/) provides some nice pre-built graphs, and is also included in Kajero.
+
+            The following code will generate and draw a random scatter plot.
+
+            ```javascript; runnable
+            d3.select(graphElement).selectAll('*').remove();
+            d3.select(graphElement).append('svg').attr("width", "100%");
+
+            nv.addGraph(function() {
+                var chart = nv.models.scatter()
+                    .margin({top: 20, right: 20, bottom: 20, left: 20})
+                    .pointSize(function(d) { return d.z })
+                    .useVoronoi(false);
+                d3.select(graphElement).selectAll("svg")
+                    .datum(randomData())
+                    .transition().duration(500)
+                    .call(chart);
+                nv.utils.windowResize(chart.update);
+                return chart;
+            });
+
+            function randomData() {
+                var data = [];
+                for (i = 0; i < 2; i++) {
+                    data.push({
+                        key: 'Group ' + i,
+                        values: []
+                    });
+                    for (j = 0; j < 100; j++) {
+                        data[i].values.push({x: Math.random(), y: Math.random(), z: Math.random()});
+                    }
+                }
+                return data;
+            }
+            return "Try clicking the rerun button!";
+            ```
+
+            ### Jutsu
+
+            Even NVD3 may be too difficult to use for those with little coding experience. This is why Kajero includes [Jutsu](http://www.joelotter.com/jutsu), a very simple graphing library.
+
+            Jutsu uses Reshaper internally, via a library wrapper called [Smolder](https://github.com/JoelOtter/smolder). This means you can throw whatever data you like at it, and Jutsu will attempt to make a graph with that data. You can also provide hints.
+
+            Additionally, the Kajero editor includes a GUI for graph creation. This makes it possible to create graphs from data without writing any code at all. Try it out!
+
+            For our examples, let's look at the data provided by the **popular** data source. This contains data on the 30 most popular GitHub repos of 2016, by number of stargazers.
+
+            ```javascript; runnable
+            return data.popular;
+            ```
+
+            Let's create a pie chart using this data.
+
+            ```javascript; auto
+            return graphs.pieChart(data.popular);
+            ```
+
+            It's made a pie chart - but, like in the first Reshaper example, we didn't tell it what data we're interested in. Let's use the repo name as a label, and plot a pie chart of the number of open issues each repo has.
+
+            As well as using strings as before, we can provide hints in the form of arrays or objects.
+
+            ```javascript; auto
+            return graphs.pieChart(data.popular, {label: 'name', value: 'open_issues'});
+            ```
+
+            Jutsu functions will return the reshaped data used in the graph.
+
+            The pie chart is a little hard to read. Let's do a bar chart instead. As well as hints, we can provide axis labels:
+
+            ```javascript; auto
+            return graphs.barChart(
+                data.popular, 'Repo', 'Number of open issues',
+                {label: 'name', value: 'open_issues'}
+            );
+            ```
+
+            Line graphs can be used to investigate trends. Is there any correlation between the number of stargazers a repo has, and the number of open issues?
+
+            ```javascript; auto
+            return graphs.lineChart(
+                data.popular, 'Stargazers', 'Open issues',
+                {label: 'name', x: 'stargazers_count', y: 'open_issues'}
+            );
+            ```
+
+            It's a little hard to tell. Let's use a scatter plot instead.
+
+            ```javascript; auto
+            return graphs.scatterPlot(
+                data.popular, 'Stargazers', 'Open issues',
+                {label: 'name', x: 'stargazers_count', y: 'open_issues'}
+            );
+            ```
+
+            There doesn't seem to be any correlation!
+
+            ## Questions? Feedback?
+
+            Please feel free to file an [issue](https://github.com/JoelOtter/kajero/issues) with any you may have. If you're having a problem with the way Jutsu or Reshaper restructures your data, it's probably better to file an issue in [Reshaper](https://github.com/JoelOtter/reshaper) itself.
+
+            Kajero is a part of my Master's project at Imperial College London, and as part of my evaluation I'd really love to hear any feedback you might have. Feel free to [shoot me an email](mailto:joel.auterson@gmail.com).
+
+            I hope you find Kajero useful!
+        </script>
+        <div id="kajero"></div>
+        <script type="text/javascript" src="dist/bundle.js"></script>
+<style>
+            pre{overflow:auto;padding:.5em;border:1px dashed #999;direction: ltr;text-align: left;}.editable .text-block{padding:.5em;border:1px dashed #999;margin:1em 0;direction: rtl;text-align: right;} .text-block-content{direction: rtl;text-align: right;} 
+        </style>
+    </body>
+</html>
